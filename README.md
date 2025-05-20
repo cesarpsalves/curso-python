@@ -2,7 +2,7 @@
 
 Repositório com os códigos, exercícios, desafios e anotações realizadas durante o curso:
 
-🔗 [Python 3 - Do Zero ao Avançado](https://www.udemy.com/course/python-3-do-zero-ao-avancado/)
+🔗 [Python 3 - Do Zero ao Avançado (Udemy)](https://www.udemy.com/course/python-3-do-zero-ao-avancado/)
 
 ---
 
@@ -28,11 +28,12 @@ Repositório com os códigos, exercícios, desafios e anotações realizadas dur
 | 16   | Expressões regulares           | ✅ Concluída    |
 | 17   | Módulos internos / externos    | ✅ Concluída    |
 | 18   | Debug no VS Code / Windsurf    | ✅ Concluída    |
+| 19–24| Tuplas, kwargs, lambda, filter | ✅ Concluídas   |
 | ...  | ...                            | 🔒 Aguardando   |
 
 ---
 
-## 💻 Tecnologias utilizadas
+## 💻 Tecnologias Utilizadas
 
 - Python 3.13
 - Windsurf Editor (VS Code alternativo)
@@ -42,17 +43,17 @@ Repositório com os códigos, exercícios, desafios e anotações realizadas dur
 
 ## 🧠 Anotações Importantes
 
-- `input()` sempre retorna string.
-- `int("10")` converte string para inteiro.
-- `print()` pode usar `sep` e `end`.
-- Operadores: `+`, `-`, `*`, `/`, `//`, `%`, `**`.
-- Operadores lógicos: `and`, `or`, `not`.
-- Estrutura condicional: `if`, `elif`, `else`.
-- Loops: `for`, `while`, `break`, `continue`.
-- Funções: `def nome():`, argumentos, retorno.
-- Lambda: funções anônimas simples.
-- Debugger: permite pausar e inspecionar o código passo a passo.
-- VS Code cria `.vscode/launch.json` automaticamente ao configurar o debug.
+- `input()` sempre retorna string
+- `int("10")` converte string para inteiro
+- `print()` pode usar `sep` e `end`
+- Operadores: `+`, `-`, `*`, `/`, `//`, `%`, `**`
+- Operadores lógicos: `and`, `or`, `not`
+- Estrutura condicional: `if`, `elif`, `else`
+- Loops: `for`, `while`, `break`, `continue`
+- Funções: `def nome():`, argumentos, retorno
+- Lambda: funções anônimas simples
+- Debugger: permite pausar e inspecionar o código passo a passo
+- VS Code / Windsurf cria `.vscode/launch.json` automaticamente
 
 ---
 
@@ -68,7 +69,7 @@ Repositório com os códigos, exercícios, desafios e anotações realizadas dur
 
 ---
 
-## ❓ Dúvidas que tive (e como resolvi)
+## ❓ Dúvidas que Tive (e Como Resolvi)
 
 - **Por que `print('1' + 1)` dá erro?**  
   → Porque está somando string com inteiro. Use `print('1' + str(1))`.
@@ -81,16 +82,15 @@ Repositório com os códigos, exercícios, desafios e anotações realizadas dur
   → `from nome_arquivo import funcao`
 
 - **Como ativar o debug no Windsurf?**  
-  → Clique em "Executar e Depurar" → cria-se `.vscode/launch.json`.
+  → Clique em "Executar e Depurar" → o `.vscode/launch.json` será criado automaticamente.
 
 ---
 
 ## ✍️ Observações Pessoais
 
-- Curso bem didático e direto ao ponto.
-- A cada aula eu faço um novo arquivo com exemplos e testes.
-- Achei o debug muito útil para entender execução linha a linha.
-- Estou organizando este repositório como se fosse meu “caderno de estudos digital”.
+- Curso bem didático e direto ao ponto
+- A cada aula eu crio um novo arquivo com exemplos e testes
+- O debug foi essencial para entender o funcionamento do código linha por linha
+- Este repositório é meu "caderno de estudos digital" e está sendo versionado com Git
 
 ---
-

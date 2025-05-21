@@ -18,15 +18,15 @@ Repositório com os códigos, exercícios, desafios e anotações realizadas dur
 | 06   | Coerção de tipos (converter um tipo em outro)                      | ✅ Concluída    |
 | 07   | Introdução às variáveis em Python                                  | ✅ Concluída    |
 | 08   | Exercício com variáveis e tipos de dados                           | ✅ Concluída    |
-| 09   | Introdução aos operadores aritméticos (matemática)                 | ✅ Concluída    |
+| 09   | Introdução aos operadores aritméticos (matemática)                | ✅ Concluída    |
 | 10   | Concatenação (+) e repetição (*) com operadores aritméticos        | ✅ Concluída    |
 | 11   | Precedência de operadores aritméticos                              | ✅ Concluída    |
 | 12   | Exercício: Cálculo do IMC                                          | ✅ Concluída    |
-| 13   | Introdução às f-strings (formatação de strings)                    | ✅ Concluída    |
+| 13   | Introdução às f-strings (formatação de strings)                   | ✅ Concluída    |
 | 14   | Formatação de strings com o método `format()`                      | ✅ Concluída    |
 | 15   | Usando a função input para coletar dados do usuário                | ✅ Concluída    |
-| 16   | Blocos de código + if / elif / else (condicionais)                 | ✅ Concluída    |
-| 17   | if, elif e else: fluxo do interpretador                            | ✅ Concluída    |
+| 16   | Blocos de código + if / elif / else (condicionais)                | ✅ Concluída    |
+| 17   | if, elif e else: fluxo do interpretador                           | ✅ Concluída    |
 | 18   | Debugger do VS Code / Windsurf                                     | ✅ Concluída    |
 | 19   | Operadores relacionais (de comparação)                             | ✅ Concluída    |
 | 20   | Exercício com if e operadores de comparação                        | ✅ Concluída    |
@@ -40,8 +40,32 @@ Repositório com os códigos, exercícios, desafios e anotações realizadas dur
 | 28   | 🧩 Exercício de revisão geral (strings, operadores, inputs)        | ✅ Concluída    |
 
 ---
+| Aula | Tópico                         | Status         |
+|------|--------------------------------|----------------|
+| 01   | Introdução                     | ✅ Concluída    |
+| 02   | Tipos de Dados                 | ✅ Concluída    |
+| 03   | Operadores                     | ✅ Concluída    |
+| 04   | Condições                      | ✅ Concluída    |
+| 05   | Laços de Repetição             | ✅ Concluída    |
+| 06   | Funções                        | ✅ Concluída    |
+| 07   | Módulos                        | ✅ Concluída    |
+| 08   | Orientação a Objetos           | ✅ Concluída    |
+| 09   | Manipulação de Strings         | ✅ Concluída    |
+| 10   | Listas e Tuplas                | ✅ Concluída    |
+| 11   | Dicionários e Conjuntos        | ✅ Concluída    |
+| 12   | Estruturas aninhadas           | ✅ Concluída    |
+| 13   | Compreensão de listas          | ✅ Concluída    |
+| 14   | Formatação de Strings          | ✅ Concluída    |
+| 15   | Funções Lambda e map/filter    | ✅ Concluída    |
+| 16   | Expressões regulares           | ✅ Concluída    |
+| 17   | Módulos internos / externos    | ✅ Concluída    |
+| 18   | Debug no VS Code / Windsurf    | ✅ Concluída    |
+| 19–24| Tuplas, kwargs, lambda, filter | ✅ Concluídas   |
+| ...  | ...                            | 🔒 Aguardando   |
 
-## 💻 Tecnologias utilizadas
+---
+
+## 💻 Tecnologias Utilizadas
 
 - Python 3.13
 - Windsurf Editor (alternativa ao VS Code)
@@ -56,12 +80,12 @@ Repositório com os códigos, exercícios, desafios e anotações realizadas dur
 - `print()` pode usar `sep` e `end`
 - Operadores: `+`, `-`, `*`, `/`, `//`, `%`, `**`
 - Operadores lógicos: `and`, `or`, `not`
-- Condicionais: `if`, `elif`, `else`
+- Estrutura condicional: `if`, `elif`, `else`
 - Loops: `for`, `while`, `break`, `continue`
-- Funções: `def`, parâmetros, retorno
-- Lambda: funções anônimas
+- Funções: `def nome():`, argumentos, retorno
+- Lambda: funções anônimas simples
 - Debugger: permite pausar e inspecionar o código passo a passo
-- Windsurf cria `.vscode/launch.json` automaticamente ao depurar
+- VS Code / Windsurf cria `.vscode/launch.json` automaticamente
 
 ---
 
@@ -76,7 +100,7 @@ Repositório com os códigos, exercícios, desafios e anotações realizadas dur
 
 ---
 
-## ❓ Dúvidas que tive (e como resolvi)
+## ❓ Dúvidas que Tive (e Como Resolvi)
 
 - **Por que `print('1' + 1)` dá erro?**  
   → Porque está somando string com inteiro. Use `print('1' + str(1))`.
@@ -113,6 +137,8 @@ Repositório com os códigos, exercícios, desafios e anotações realizadas dur
   "python.defaultInterpreterPath": "python",
   "git.autofetch": true
 }
+- **Como ativar o debug no Windsurf?**  
+  → Clique em "Executar e Depurar" → o `.vscode/launch.json` será criado automaticamente.
 
 ---
 
@@ -122,5 +148,10 @@ Repositório com os códigos, exercícios, desafios e anotações realizadas dur
 - Crio um novo arquivo por aula com testes e exemplos
 - O debug me ajudou muito a entender o fluxo do código
 - Este repositório é meu “caderno de estudos digital” com versionamento
+
+---
+- A cada aula eu crio um novo arquivo com exemplos e testes
+- O debug foi essencial para entender o funcionamento do código linha por linha
+- Este repositório é meu "caderno de estudos digital" e está sendo versionado com Git
 
 ---
